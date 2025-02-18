@@ -6,7 +6,7 @@ import Movie from './pages/Movie';
 import Meme from './pages/Meme';
 
 import Navbar from './component/Navbar';
-import Calculator from './pages/calculator';
+import Calculator from './pages/Calculator';
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
             <Route path="/movie" element={<Movie />} />
             <Route path="/drawing" element={<Drawing />} />
             <Route path="/meme" element={<Meme />} />
-           {/* <Route path="/space" element={<Space />} /> */}
             <Route path="/calci" element={<Calculator />} />
           </Routes>
         </div>

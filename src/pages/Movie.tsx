@@ -57,7 +57,7 @@ const Movies: React.FC = () => {
           placeholder="Search for a movie..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}  // Handle input change
-          className="p-2 rounded-lg shadow-lg w-full sm:w-1/2"
+          className="p-2 mt-2 bg-white rounded-lg shadow-lg w-full sm:w-1/2"
         />
         <button
           onClick={handleSearch}
